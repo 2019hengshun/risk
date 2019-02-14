@@ -1078,15 +1078,16 @@ export default {
               _this.baseInfo = data.tdReport;
             }
             if (data.mifengreport) {
-              _this.userBasicInformation = data.mifengreportApplicationCheck;
+              _this.userBasicInformation =
+                data.mifengreport.mifengreportApplicationCheck;
               _this.userBasicInformation["cellLoc"] = row.phonenumber;
-              _this.testTableData = data.list1;
-              _this.operatorTableData = data.list2;
-              _this.kinsfolkTableData = data.list6;
+              _this.testTableData = data.mifengreport.list1;
+              _this.operatorTableData = data.mifengreport.list2;
+              _this.kinsfolkTableData = data.mifengreport.list6;
 
-              _this.linkmanTableData = data.list4;
-              _this.operatorDataTableData = data.list3;
-              _this.userInfo = data.mifengreportUserInfoCheck;
+              _this.linkmanTableData = data.mifengreport.list4;
+              _this.operatorDataTableData = data.mifengreport.list3;
+              _this.userInfo = data.mifengreport.mifengreportUserInfoCheck;
             }
 
             this.showVisible = true;

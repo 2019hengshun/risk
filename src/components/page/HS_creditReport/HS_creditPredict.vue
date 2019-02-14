@@ -690,7 +690,7 @@
                                 <el-progress type="circle" :percentage="reportList.loans_score/10" color="red" :show-text="showText">aaaaa</el-progress>                        
                                 <div class="xy_zxd">贷款行为置信度：{{reportList.loans_credibility}}</div>
                         </div>
-                        <img class="xy_img" :src="reportList.loans_score > 500? require('../../../assets/img/u236.png'): require('../../../assets/img/u115.png')" alt="">
+                        <img class="xy_img" :src="reportList.loans_score > 500? require('../../../assets/img/u115.png'): require('../../../assets/img/u236.png')" alt="">
                     </div>
 
 
