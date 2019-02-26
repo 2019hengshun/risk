@@ -8,8 +8,8 @@ axios.defaults.withCredentials = true;
 //引用刚才我们创建的util.js文件，并使用getCookie方法
 //axios.defaults.baseURL = 'http://localhost:8082';
 //axios.defaults.baseURL = 'http://101.132.171.38:8082';
-axios.defaults.baseURL = 'http://47.102.111.2:8082';
-//baseURL: 'http://101.132.171.38:7992',
+//axios.defaults.baseURL = 'http://47.102.111.2:8082';
+axios.defaults.baseURL = 'http://129.28.69.40:8082'
 
 
 
